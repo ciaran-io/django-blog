@@ -35,7 +35,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['localhost', os.environ.get('PRODUCTION_HOSTNAME')]
+ALLOWED_HOSTS = ['localhost', 'ci-codestar-django.herokuapp.com']
 
 
 # Application definition
